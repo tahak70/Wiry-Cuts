@@ -3,209 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing-Page</title>
+    <title>Wiry Cuts</title>
     <style>
-        .Header {
+        .header {
             display: flex;
+            gap: 25px;
             background-color: black;
-            color: yellow;
-            gap: 20px;
-            font-weight: bold;
-            font-size: 18px;
-            height: 100px;
         }
-        a.headerLink {
+        a {
             color: yellow;
         }
         .logo {
-            margin-right: 225px;
-            font-size: 24px;
+            height: 100px;
+            width: 100px;
+            margin-right: 1350px;
+        }
+        .hbut {
+            border-color: yellow;
+            border-width: 5px;
             color: yellow;
-            margin-inline-start: 75px;
+            background-color: black;
+            width: 100px;
+            height: 50px;
+            margin-top: 25px;
         }
         .main {
             display: flex;
-            color: yellow;
             background-color: black;
-            height: 300px;
         }
-        .title {
-            font-size: 48px;
-            font-weight: bold;
-            margin-inline-start: 75px;
-            flex-wrap: wrap;
-            width: 300px;
+        .photo {
+            outline: 5px solid yellow;
+            margin: 25px;
         }
-        .image {
-            color: white;
-            padding: 50px;
-            margin-inline-start: 150px;
-            background-color: black;
-            height: 100px;
-            width: 200px;
-            text-align: center;
-        }
-        .secTex {
-           color: yellow;
-           font-size: 18px;
-           flex-wrap: wrap;
-        }
-        .signup {
-            color: black;
-            background-color: yellow;
-            border-radius: 5px;
-            height: 35px;
-            width: 100px;
-            font-weight: bold;
-        }
-        .rantit {
-            color: #1F2937;
-            text-align: center;
-        }
-        .ranbox {
-            display: flex;
-            align-items: center;
-            gap: 50px;
-            height: 350px;
-        }
-        .box {
-            background-color: white;
-            color: white;
-            height: 150px;
-            width: 150px;
-            outline: 5px solid #3882F6;
-            border-radius: 5px;
-        }
-        .info {
-            color: #1F2937;
-            text-align: center;
-        }
-        .push {
-            margin-left: 60px;
-        }
-        .quote {
+        .text {
             display: flex;
             flex-direction: column;
-            background-color: #E5E7EB;
-            height: 350px;
-            text-align: center;
+            color: yellow;
+            font-weight: bold;
+            font-size: 50px;
         }
-        .content {
-            size: 36px;
-            font-style: italic;
-            color: #1F2937;
-            margin-top: 150px;
+        .title1 {
+            margin-top: 100px;
         }
-        .who {
-            color: #1F2937;
-            text-align: center;
+        .title3 {
+            margin-top: 200px;
+            margin-left: 850px;
         }
-        .call {
+        .images {
             display: flex;
-            background-color: #3882F6;
-            color: white;
-            margin: 50px;
-            padding: 50px;
+            gap: 50px;
+            height: 550px;
+            margin-top: 50px;
+            margin-bottom: 50px;
         }
-        .call1 {
-            display: block;
+        .image {
+            outline: 10px solid yellow;
+            height: 510px;
         }
-        .tit {
+        .image1 {
+            outline: 10px solid yellow;
+            height: 510px;
+            margin-left: 50px;
+        }
+        .second {
+            display: flex;
+            flex-direction: column;
+            background-color: yellow;
+            height: 200px;
+        }
+        .title4 {
             font-weight: bold;
-            font-size: large
+            font-size: 50px;
         }
-        .callsign {
-            margin-left: 100px;
-            color: white;
-            background-color: #3882F6;
-            border-color: white;
-            border-radius: 10px;
-            width: 100px;
-            font-weight: bold;
-            border-width: 3px;
+        .num {
+            font-size: 40px;
         }
         .bottom {
-            text-align: center;
+            background-color: black;
             color: white;
-            background-color: #1F2937;
+            text-align: center;
             padding: 50px;
+            font-size: 30px;
         }
     </style>
 </head>
 <body>
-    <div class="Header">
+    <div class="header">
         <div class="logo">
-            <img src="/img/logo.jpeg" alt="Wiry Cuts">
+            <a href="/index.html"><img class="logo" src="https://lh3.googleusercontent.com/p/AF1QipOh1Elef23thre7tlZLmhsST9zQ_IBawsRKEpEZ=s680-w680-h510" alt=""></a>
+         </div>
+        <div>
+        <button class="hbut">
+            <a href="https://www.google.com/search?q=wirys&source=lmns&bih=969&biw=920&hl=en-GB&sa=X&ved=2ahUKEwj2-r2Dp4CCAxXAX6QEHUNCCoYQ_AUoAHoECAEQAA&bshm=rimc/1#lrd=0x487a43c53cc14351:0x8695d8bd399ff666,1,,,,">Reviews</a>
+        </button>
         </div>
         <div>
-            <a href="" class="headerLink">Where to find us?</a>
+        <button class="hbut">
+            <a href="https://www.google.com/maps/dir/53.035008,-2.1659648/wirys/@53.0314448,-2.1757097,16z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x487a43c53cc14351:0x8695d8bd399ff666!2m2!1d-2.1745476!2d53.0278819?hl=en-GB&entry=ttu">Where to find us?</a>
+        </button>
         </div>
-        <div>
-            <a href="" class="headerLink">Hall of Fame</a>
-        </div>
-        <div>
-            <a href="https://www.google.com/search?gs_ssp=eJzj4tVP1zc0LLEsKM-qSE8zYLRSNagwsTBPNDFONjVOTjY0MTY1tDKosDCzNE2xSEoxtrRMSzMzM_NiLc8sqiwGABaSEXQ&q=wirys&oq=Wiry&gs_lcrp=EgZjaHJvbWUqDQgBEC4YrwEYxwEYgAQyBggAEEUYOTINCAEQLhivARjHARiABDINCAIQLhivARjHARiABDIKCAMQABixAxiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDYyODlqMWo3qAIAsAIA&sourceid=chrome&ie=UTF-8&bshm=rimc/1#lrd=0x487a43c53cc14351:0x8695d8bd399ff666,1,,,," class="headerLink">Reviews</a>
-        </div>
+        <button class="hbut">
+            <a href="https://booksy.com/en-gb/42516_wirys-cut_barber_1205434_stoke-on-trent">Book Now</a>
+        </button>
     </div>
     <div class="main">
-        <div class="title">
-            At Wiry's you get the best
-            <p class="secTex">
-                This website has some subtext that goes here under the main title.
-                Its a smaller font and the color is lower contrast.
-            </p>
-            <a href="https://www.google.com/maps/reserve/v/default?m=I22f5g_sOfE&source=pa&gei=0gAvZZOLFdm2hbIP77SNsA4&sourceurl=https://www.google.com/search?gs_ssp%3DeJzj4tVP1zc0LLEsKM-qSE8zYLRSNagwsTBPNDFONjVOTjY0MTY1tDKosDCzNE2xSEoxtrRMSzMzM_NiLc8sqiwGABaSEXQ%26q%3Dwirys%26oq%3DWiry%26gs_lcrp%3DEgZjaHJvbWUqDQgBEC4YrwEYxwEYgAQyBggAEEUYOTINCAEQLhivARjHARiABDINCAIQLhivARjHARiABDIKCAMQABixAxiABDIHCAQQABiABDIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDYyODlqMWo3qAIAsAIA%26sourceid%3Dchrome%26ie%3DUTF-8%26bshm%3Drimc/1&hl=en-GB">
-                <button class="signup">Book Now!</button>
-            </a>
+        <div class="photo">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMdB-vRETE_T-lGQXQLmpBVnxekSHSQ6l6hq_pr=s680-w680-h510" alt="Your browser isnt supported">
+        </div>
+        <div class="text">
+            <div class="title1">
+                At Wiry's we offer the best to our clients
+            </div>
+            <div class="title2">
+                Book Now at no added fee
+            </div>
+            <div class="title3">
+                Walk in's are welcome
+            </div>
+        </div>
+    </div>
+    <div class="images">
+        <div class="image1">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipP97Xrd28Fw8o8nnZpTtluwBh9vwGTeTD1BFiyj=s680-w680-h510" alt="">
         </div>
         <div class="image">
-            <img src="/img/oustide-light-dark.jpg" alt="Your browser isn't supported">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipNsZ-BWMAt4ENHv0gJ_oOedTXwmro1wZuFz8MLS=s680-w680-h510" alt="">
+        </div>
+        <div class="image">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMHKgQbuR8Q_yuezNFHPy34C2FROi3nk2vEfsgz=s680-w680-h510" alt="">
+        </div>
+        <div class="image">
+            <img src="https://lh3.googleusercontent.com/p/AF1QipMF7DvCIe-F0qU-ZAc__6Q7dWT9A1_DZWF2Fxtn=s680-w680-h510" alt="">
         </div>
     </div>
-    <h1 class="rantit">
-        Some random information
-    </h1>
-    <div class="ranbox">
-        <div class="push">
-            <div class="box"></div>
-            <h2 class="info">SubText</h2>
+    <div class="second">
+        <div class="title4">
+            How to contact us?
         </div>
-        <div>
-            <div class="box"></div>
-            <h2 class="info">SubText</h2>
+        <div class="num">
+            Call this number for any enquires: 01782 698460
         </div>
-        <div>
-            <div class="box"></div>
-            <h2 class="info">SubText</h2>
-        </div>
-        <div>
-            <div class="box"></div>
-            <h2 class="info">SubText</h2>
-        </div>
-    </div>
-    <div class="quote">
-        <h2 class="content">
-            This is an inspiring quote, or a testimonial from a customer.
-            Maybe its just filling up space, or maybe people will actually
-            read it. Who knows? All I know is that it looks nice.
-        </h2>
-        <h1 class="who">
-            -Thor, God of Thunder
-        </h1>
-    </div>
-    <div class="call">
-        <div class="call1">
-        <div class="tit">
-            Call to action! It's time!
-        </div>
-        <div class="callin">
-            Sign up for our product by clicking that button right over there!
-        </div>
-        </div>
-        <button class="callsign">Sign up</button>
     </div>
     <div class="bottom">
-        Copyright © The Odin Project 2023 (Made by Ta-Ha)
+        © Wiry Cuts
     </div>
 </body>
 </html>
